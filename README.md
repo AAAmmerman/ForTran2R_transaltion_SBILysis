@@ -1,11 +1,11 @@
 # ForTran2R_transaltion_SBILysis
-<span style="color: green"> Fortran to R transaltion | Simulation Based Inference (SBI) with Markov Chain Monte Carlo (MCMC) - A. A. Ammerman | OG Fortran code : Clotting Simulation by Dr. Brittany Bannish of the University of Central Oklahoma</span >
+<span style="color: green"> Fortran to R translation | Simulation Based Inference (SBI) with Markov Chain Monte Carlo (MCMC) - A. A. Ammerman | OG Fortran code : Clotting Simulation by Dr. Brittany Bannish of the University of Central Oklahoma</span >
 
 ---
 This is a translation from Fortran to R of the original source code for Dr.B Bannish's Micro-scale Lysis Simulation (which can be found here: [Simulation Repository](https://github.com/UCO-OpResearch/lysis); likewise, see the Original Fortran Code (11/01/2026 - MM/DD/YYYY)[here](https://github.com/UCO-OpResearch/lysis/blob/main/src/fortran/micro_rates.f90). Please do mind that some of my descriptions on context and SBI may not be fully adequate at this time.
 
 
-The purpose of translating this was firstly to become well acquainted with the logic behind simulation, secondly to make this simulation more accesible for those more versed in R or other similar, modern languages; and thirdly (the not-as-important reason), plainly just because R is something I can debug more naturally in the event of some error. So, I stubbornly spent an extra 6 or 7 hours learning FT code and deciphering it into R.
+The purpose of translating this was firstly to become well acquainted with the logic behind simulation, secondly to make this simulation more accessible for those more versed in R or other similar, modern languages; and thirdly (the not-as-important reason), plainly just because R is something I can debug more naturally in the event of some error. So, I stubbornly spent an extra 6 or 7 hours learning FT code and deciphering it into R (regex being a major help here).
 
 The next step from this working model is to successfully implement MCMC Sampling for generating a healthy sample for Simulation Based Inference.
 
