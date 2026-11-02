@@ -1133,7 +1133,8 @@ SIM_params <- data.frame(
 # DO MIND THAT pli_first_time is not inherently filtered for fiber degraded == T
 # here is the associated statistic for pli_firsttime WHEN Fiber degraded == T
 
-
+# THIS SIMULATION SEED FOR THE FOLLOWING, simulation 1000 runs
+# seeder = 47509
 
 # COMPARISON : fiber_degraded == T :: 
 #
